@@ -1,0 +1,96 @@
+@charset "utf-8";*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(200,200,200,0)}
+html{-webkit-text-size-adjust:100%;}
+body,html{min-height:100%}
+body{overflow-x:hidden;margin:0 auto;width:640px;font-family:"PingFang SC","Hiragino Sans GB",'Microsoft YaHei',SimHei}
+a{cursor:pointer}
+a:link{text-decoration:none}
+a:visited{text-decoration:none}
+a:hover{text-decoration:none}
+img{margin:0;padding:0;border:none}
+li,ul{list-style-type:none}
+button,input,select,textarea{outline:0;font-family:"PingFang SC","Hiragino Sans GB",'Microsoft YaHei',SimHei}
+textarea{resize:none}
+a,button,input{font-family:"PingFang SC","Hiragino Sans GB",'Microsoft YaHei',SimHei;-webkit-tap-highlight-color:rgba(255,0,0,0)}
+input{-webkit-appearance:none}
+.clear{zoom:1}
+.clear:after{clear:both;display:block;visibility:hidden;content:''}
+.float_left{float:left}
+.float_right{float:right}
+.display_none{display:none}
+.display_block{display:block}
+/*首页*/
+.logo{width: 640px; margin: 0 auto;text-align: center; height: 88px; vertical-align: middle; position: fixed; top: 0; background: #fff; z-index: 99999;}
+.logo{vertical-align: middle; line-height: 88px;}
+.logo img{vertical-align: middle;}
+/*banner*/
+.banner{ width:640px; height:306px;  margin:0 auto; position:relative; overflow:hidden;  margin-top: 88px; }
+.banner .hd{display: none;}
+.banner .bd{position:relative; z-index:0; height:306px;}
+.banner .bd li{height:306px;}
+.banner .bd li img{ width:100%;  height:100%;}
+.banner .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+/*nav*/
+.nav{position: absolute;top: 26px;left: 20px;}
+.nav-bg{width: 640px; height: 100%; position: fixed; z-index: 99; margin-left: -640px; top: 0; z-index: 100000;}
+.nav-bg-right{width: 640px; height: 100%; position: fixed; z-index: 99; margin-left: 640px; top: 0;}
+.close{position: absolute; right: 20px; top: 30px;}
+.nav-bg-right .close{left: 20px;}
+.nav-content{width: 300px; height: 100%; background: #404040; text-align: center; position: relative;}
+.nav-bg-right .nav-content{margin-left: 340px;}
+.nav-content a{color: #fff; display: block;}
+.nav-content li{line-height: 80px;font-size: 24px;border-bottom: 1px solid #565656;}
+/*首页标题，图片，内容*/
+.index-title{text-align: center; font-size: 24px; color: #be2727; margin-top: 20px; padding-bottom: 20px; background: url(../../src/assets/arrow.png) no-repeat center bottom; animate-delay: 2s;animate-duration: 2s;}
+.index-title span{display: block; font-size: 16px; color: #777; margin-top: ;}
+.index-img{text-align: center; margin-top: 30px; margin-bottom: 28px;}
+.index-content{font-size: 18px; color: #777; line-height: 30px; width: 450px; margin: 0 auto;}
+.index-content span{margin-top: 20px; display: inline-block;}
+/*新闻列表*/
+.index-new{margin: 18px 20px 0 20px;}
+.index-new img{width: 260px; height: 200px;}
+.index-new a{display: block; width: 100%; height: 100%;}
+.indexnew-text{width: 320px; height: 200px; position: relative;}
+.indexnew-text span{font-size: 22px; color: #656565; display: block; white-space:nowrap; width: 100%; overflow: hidden; text-overflow:ellipsis;}
+.indexnew-text p{line-height: 34px; color: #999; font-size: 20px; position: absolute; bottom: 0px;}
+.index-new li{padding: 15px 0; border-bottom: 1px dotted #b9b9b9;}
+/*底部*/
+.footer{text-align: center; margin-top: 20px; background: #eee; padding: 26px 0; color: #4c4c4c; font-size: 18px; line-height: 30px;}
+.footer a{color: #4c4c4c;}
+/*微信代运营*/
+.nav1{position: absolute; right: 20px; top: 26px;}
+.nav-list{position: fixed; background: #be2727; color: #fff; height: 88px; font-size: 34px; z-index: 1; top: 0; width: 640px; margin: 0 auto;}
+.back{position: absolute; padding-left: 30px; background: url(../../src/assets/return.png) no-repeat left center; line-height: 34px; font-size: 26px; left: 20px; top: 25px;}
+.nav-title{text-align: center; line-height: 88px; position: fixed; top: 0; width: 500px; margin: 0 auto; z-index: 2;color: #fff;font-size: 34px; margin-left: 70px;}
+.list-banner{width: 640px; margin: 0 auto; margin-top: 88px;}
+.list-title{text-align: center; font-size: 22px; color: #505050; margin-top: 20px;}
+.wx-list li{float: left; margin:0 60px; position: relative;}
+.wx-list li .ward{position: absolute; bottom: -22px; left: 20px;}
+.wx-list ul{margin: 30px;}
+.wx-content{background: #f0f0f0; padding: 15px 68px; line-height: 30px; font-size: 18px; color: #6e6e6e; margin-top: -8px;}
+.wx-content p{color: #444; font-size: 24px; margin-bottom: 10px;}
+.wx-text{font-size: 18px; color: #545454; line-height: 30px; width: 250px; margin: 0 auto; text-align: center;}
+/*品牌全案*/
+.bgray{background: #f8f8f8; padding-bottom: 30px;}
+.pp-text{font-size: 24px; color: #444; text-align: center;}
+.pp-text p{font-size:20px; color: #656565; margin-top: 10px;}
+.margin-t{margin-top: 25px;}
+.padding-t{padding-top: 25px;}
+.margin-b{margin-bottom: 30px;}
+/*全景*/
+.qj-title{text-align: center; font-size: 24px; color: #444; margin: 30px 0;}
+.qj-text{font-size: 20px; color: #777; line-height: 34px; text-align: center; width: 490px; margin: 0 auto;}
+.qj-list{width: 400px; margin: 0 auto;}
+.qj-list li{width: 100%; background: #f5f5f5; padding-bottom: 25px; margin-bottom: 20px;}
+.qj-list li img{width: 360px; margin: 20px;}
+.qj-list li span{display: block; line-height: 24px; text-align: center; color: #444; font-size: 20px; margin: 0 20px;}
+/*云服务*/
+.y-title{font-size:24px; color: #444; text-align: center; margin: 25px 0;}
+.y-title p{font-size: 18px; color: #5f5f5f; margin-top: 8px;}
+.y-text{font-size: 22px; color: #444; text-align: center; width: 380px; margin: 0 auto;}
+.y-text p{font-size: 20px; margin-top: 10px; line-height: 34px;}
+/*详情*/
+h1{font-size: 20px; font-weight: 400; color: #444; text-align: center; border-bottom: 1px dotted #868686; padding: 20px 0; margin: 10px 20px 0 20px;}
+.detail{color: #9f9f9f; font-size: 20px; line-height: 32px; margin: 20px;}
+.hrefbth{text-align: center;}
+.hrefbth a{display: inline-block;width: 140px; height: 40px; line-height: 40px; text-align: center; border:1px solid #BE2727; font-size:22px; border-radius: 2px; margin-top: 30px; background: #BE2727; color: #fff; margin-bottom: 30px;}
+.hrefbth a:hover{color: #BE2727; background: #fff;}
